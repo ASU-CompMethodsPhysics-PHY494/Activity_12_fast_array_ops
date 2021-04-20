@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1 / avg_neighbors",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_avg_neighbors.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 6
+    },
+    {
+      "name": "Test: Problem 1 / avg_neighbors end",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_avg_neighbors_end.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    }
+  ]
+}
